@@ -24,8 +24,7 @@
 
       <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
         <div class="avatar-wrapper">
-          <img :src="user.avatarName ? baseApi + '/avatar/' + user.avatarName : Avatar" class="user-avatar">
-          <i class="el-icon-caret-bottom" />
+          <i class="el-icon-user" style="font-size:24px"></i>
         </div>
         <el-dropdown-menu slot="dropdown">
           <span style="display:block;" @click="show = true">
